@@ -1,9 +1,0 @@
-C:\Users\vince\Documents\Visual Studio 2017\streeplijst\keyboard\bin\Debug\keyboard.exe.config
-C:\Users\vince\Documents\Visual Studio 2017\streeplijst\keyboard\bin\Debug\keyboard.exe
-C:\Users\vince\Documents\Visual Studio 2017\streeplijst\keyboard\bin\Debug\keyboard.pdb
-C:\Users\vince\Documents\Visual Studio 2017\streeplijst\keyboard\obj\Debug\Keyboard.Keyboard.resources
-C:\Users\vince\Documents\Visual Studio 2017\streeplijst\keyboard\obj\Debug\keyboard.Properties.Resources.resources
-C:\Users\vince\Documents\Visual Studio 2017\streeplijst\keyboard\obj\Debug\keyboard.csproj.GenerateResource.Cache
-C:\Users\vince\Documents\Visual Studio 2017\streeplijst\keyboard\obj\Debug\keyboard.csproj.CoreCompileInputs.cache
-C:\Users\vince\Documents\Visual Studio 2017\streeplijst\keyboard\obj\Debug\keyboard.exe
-C:\Users\vince\Documents\Visual Studio 2017\streeplijst\keyboard\obj\Debug\keyboard.pdb
