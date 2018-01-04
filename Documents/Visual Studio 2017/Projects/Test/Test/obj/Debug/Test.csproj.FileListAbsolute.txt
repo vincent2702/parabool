@@ -1,0 +1,8 @@
+C:\Users\vince\Documents\Visual Studio 2017\Projects\Test\Test\bin\Debug\Test.exe.config
+C:\Users\vince\Documents\Visual Studio 2017\Projects\Test\Test\bin\Debug\Test.exe
+C:\Users\vince\Documents\Visual Studio 2017\Projects\Test\Test\bin\Debug\Test.pdb
+C:\Users\vince\Documents\Visual Studio 2017\Projects\Test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\vince\Documents\Visual Studio 2017\Projects\Test\Test\obj\Debug\Test.csproj.ResolveComReference.cache
+C:\Users\vince\Documents\Visual Studio 2017\Projects\Test\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\vince\Documents\Visual Studio 2017\Projects\Test\Test\obj\Debug\Test.exe
+C:\Users\vince\Documents\Visual Studio 2017\Projects\Test\Test\obj\Debug\Test.pdb
