@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "streeplijst", "streeplijst\streeplijst.csproj", "{2C8683A4-6AF0-429E-BFE4-A7D1004CC6E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "streeplijst_library", "streeplijst_library\streeplijst_library.csproj", "{2A39EA77-2C3C-4112-9945-C36E184A61CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C8683A4-6AF0-429E-BFE4-A7D1004CC6E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8683A4-6AF0-429E-BFE4-A7D1004CC6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8683A4-6AF0-429E-BFE4-A7D1004CC6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8683A4-6AF0-429E-BFE4-A7D1004CC6E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A39EA77-2C3C-4112-9945-C36E184A61CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A39EA77-2C3C-4112-9945-C36E184A61CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A39EA77-2C3C-4112-9945-C36E184A61CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A39EA77-2C3C-4112-9945-C36E184A61CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E058C1B1-BECE-4D5B-A513-501937A46624}
+	EndGlobalSection
+EndGlobal
