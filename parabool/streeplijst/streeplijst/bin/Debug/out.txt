@@ -1,0 +1,5 @@
+ ; ;Bier;Fris;Snoep;Wijn
+Vincent;Schelwald;3;0;0;0
+Rick;Ronde;0;0;0;0
+Tjerk;Douwma;0;0;0;0
+penning;meester;0;0;0;0
