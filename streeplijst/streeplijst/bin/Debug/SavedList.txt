@@ -1,0 +1,4 @@
+Bier:     2
+Fris:     2
+Snoep:     4
+Wijn:     2
