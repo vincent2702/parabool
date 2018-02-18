@@ -29,7 +29,7 @@ namespace streeplijst
             server = "localhost";
             database = "test";
             uid = "root";
-            password = "parabool";
+            password = "admin";
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" +
             database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
