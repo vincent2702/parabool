@@ -15,13 +15,15 @@ namespace streeplijst
         
         static void Main()
         {
-            
+
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             FormList formlist = new FormList();
+            //var reader = new ArduinoSerialReader("COM3");
+            //Console.ReadLine();
             Application.Run();
-            
-            
         }
+
     }
 }

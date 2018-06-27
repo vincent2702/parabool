@@ -22,13 +22,18 @@ namespace streeplijst
         public Form2()
         {
             InitializeComponent();
-            this.ShowInTaskbar = false;
+           // this.ShowInTaskbar = false;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.ActiveControl = textBox1;
             Update_List();
+            
         }
 
         public void Update_List()
         {
+            timer1.Start();
+            textBox1.Focus();
+            this.ActiveControl = textBox1;
             ledenBinding.DataSource = FormList.form1.dBConnect.lijst.Leden;
             NameList.DataSource = null;
             NameList.DataSource = ledenBinding;
@@ -39,22 +44,35 @@ namespace streeplijst
 
         private void NameList_MouseClick(object sender, MouseEventArgs e)
         {
-            
-            if ((String)NameList.SelectedValue == "penning\tmeester")
-            {
-                FormList.form3.Show();
-                FormList.form2.Hide();
-                FormList.form1.Hide();
-                
-            }
-            else
+
+
+            if ((String)NameList.SelectedValue != "penning\tmeester")
             {
                 FormList.form2.Hide();
                 FormList.form1.Show();
                 FormList.form1.fullName = (String)NameList.SelectedValue;
                 FormList.form1.UpdateText();
+                FormList.form1.timer1.Start(); 
+                textBox1.Clear();
+                timer1.Stop();
             }
-            textBox1.Clear();
+            else
+            {
+                timer1.Stop();
+                if (LogIn.Show("") == DialogResult.Yes)
+                {
+                    FormList.form3.Show();
+                    FormList.form2.Hide();
+                    FormList.form1.Hide();
+                    FormList.form1.timer1.Stop(); 
+                    
+
+                }
+                else
+                {
+                    textBox1.Clear();
+                }
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -67,13 +85,23 @@ namespace streeplijst
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            FormList.form4.Show();
+            FormList.form2.textBox1.Focus();
+            FormList.form2.Hide();
+            timer1.Stop();
         }
         
         private void textBox1_MouseClick(object sender, MouseEventArgs e)
         {
             
             
+        }
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            FormList.form4.Show();
+            FormList.form2.Hide();
+            timer1.Stop();
+
         }
     }
 }

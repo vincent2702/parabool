@@ -1,5 +1,137 @@
- ; ;Bier;Fris;Snoep;Wijn
-Vincent;Schelwald;3;0;0;0
-Rick;Ronde;0;0;0;0
-Tjerk;Douwma;0;0;0;0
-penning;meester;0;0;0;0
+26/03/2018 00:00:00; ;Bier;Opbrengst;Fris;Opbrengst;Snoep;Opbrengst;AA;Opbrengst;Wijn;Opbrengst;totaal;Opbrengst
+Allard ;Lakerveld;0;0;0;0;0;0;0;0;0;0;0;0
+Alma;Dijkstra;0;0;0;0;0;0;0;0;0;0;0;0
+Anne;Adamse;0;0;0;0;0;0;0;0;0;0;0;0
+Anne;Mulder;0;0;0;0;0;0;0;0;0;0;0;0
+Annemieke;Wargers;0;0;0;0;0;0;0;0;0;0;0;0
+Arjen ;Huising ;0;0;0;0;0;0;0;0;0;0;0;0
+Arunan;Sriskantharasa;7;5.95;5;3.5;2;1.3;4;3;3;6;21;19.75
+Bart;de Jong;0;0;0;0;0;0;0;0;0;0;0;0
+Bas;van den Burg;0;0;0;0;0;0;0;0;0;0;0;0
+Bas;Bosma;0;0;0;0;0;0;0;0;0;0;0;0
+Baukje;Hoekstra;0;0;0;0;0;0;0;0;0;0;0;0
+Birgit;Brouwer;0;0;0;0;0;0;0;0;0;0;0;0
+Bram;Wiggers;0;0;0;0;0;0;0;0;0;0;0;0
+Carina;Postma;0;0;0;0;0;0;0;0;0;0;0;0
+Corn‚;Zandt;0;0;0;0;0;0;0;0;0;0;0;0
+Daniel;Oostenbrink;0;0;0;0;0;0;0;0;0;0;0;0
+Dylan;Mezach;0;0;0;0;0;0;0;0;0;0;0;0
+Eline;Wijma;0;0;0;0;0;0;0;0;0;0;0;0
+Elke;Dijk, van;0;0;0;0;0;0;0;0;0;0;0;0
+Ella-Roos;Schenkel;0;0;0;0;0;0;0;0;0;0;0;0
+Esther;Harrewijn;0;0;0;0;0;0;0;0;0;0;0;0
+Eva;Breukelman;0;0;0;0;0;0;0;0;0;0;0;0
+Eva;Dijkstra;0;0;0;0;0;0;0;0;0;0;0;0
+Evert;Dijkstra;0;0;0;0;0;0;0;0;0;0;0;0
+Fardau;van der Wal;0;0;0;0;0;0;0;0;0;0;0;0
+Folkert;Bergsma;0;0;0;0;0;0;0;0;0;0;0;0
+Gerald;Kikkert;0;0;0;0;0;0;0;0;0;0;0;0
+Gerben;van der Pijl;0;0;0;0;0;0;0;0;0;0;0;0
+Gerbrich;Alma;0;0;0;0;0;0;0;0;0;0;0;0
+Gerdie;van der Veen;0;0;0;0;0;0;0;0;0;0;0;0
+Gerrit;Postma;0;0;0;0;0;0;0;0;0;0;0;0
+Henri;Kikkert;0;0;0;0;0;0;0;0;0;0;0;0
+Hidde ;Vink;0;0;0;0;0;0;0;0;0;0;0;0
+Hilde;Plomp;0;0;0;0;0;0;0;0;0;0;0;0
+Hilde;Kiers;0;0;0;0;0;0;0;0;0;0;0;0
+Iris;van den Boogaart;0;0;0;0;0;0;0;0;0;0;0;0
+Jaap;Toering;0;0;0;0;0;0;0;0;0;0;0;0
+Jacob;Bron;0;0;0;0;0;0;0;0;0;0;0;0
+Janet;ter Heegde;0;0;0;0;0;0;0;0;0;0;0;0
+Janna;Dolman;0;0;0;0;0;0;0;0;0;0;0;0
+Janne;Heida;0;0;0;0;0;0;0;0;0;0;0;0
+Jannina;Jonkers;0;0;0;0;0;0;0;0;0;0;0;0
+Jara;Jonker;0;0;0;0;0;0;0;0;0;0;0;0
+Jeroen;Vendel;0;0;0;0;0;0;0;0;0;0;0;0
+Joanne;Flinkert;0;0;0;0;0;0;0;0;0;0;0;0
+Job;Zoer;0;0;0;0;0;0;0;0;0;0;0;0
+Joost;van der Wal;0;0;0;0;0;0;0;0;0;0;0;0
+Joss;Abbingh;0;0;0;0;0;0;0;0;0;0;0;0
+Jozina;Donker;0;0;0;0;0;0;0;0;0;0;0;0
+Julia;Wolthuizen;0;0;0;0;0;0;0;0;0;0;0;0
+Jurgen;van Katwijk;0;0;0;0;0;0;0;0;0;0;0;0
+Karin ;Swiersema;0;0;0;0;0;0;0;0;0;0;0;0
+Karlie;Zondag;0;0;0;0;0;0;0;0;0;0;0;0
+Karlijn;van Veggel;0;0;0;0;0;0;0;0;0;0;0;0
+Kim;Ijsebaart;0;0;0;0;0;0;0;0;0;0;0;0
+Kim;Kooman;0;0;0;0;0;0;0;0;0;0;0;0
+Kjeld;Land;0;0;0;0;0;0;0;0;0;0;0;0
+Koen;Wouda;0;0;0;0;0;0;0;0;0;0;0;0
+Lennert;Schuttenbeld;0;0;0;0;0;0;0;0;0;0;0;0
+Lieke;de Groot;0;0;0;0;0;0;0;0;0;0;0;0
+Lisanne;Bakker;0;0;0;0;0;0;0;0;0;0;0;0
+Lutine;de Zee;0;0;0;0;0;0;0;0;0;0;0;0
+Lysette;van der Hoop;0;0;0;0;0;0;0;0;0;0;0;0
+Maaike;Hoekstra;0;0;0;0;0;0;0;0;0;0;0;0
+Maaike ;Douwsma;0;0;0;0;0;0;0;0;0;0;0;0
+Maarten;van Roekel;0;0;0;0;0;0;0;0;0;0;0;0
+Manon;Giesing;0;0;0;0;0;0;0;0;0;0;0;0
+Maran;Nijmeijer;0;0;0;0;0;0;0;0;0;0;0;0
+Marieke;de Vries;0;0;0;0;0;0;0;0;0;0;0;0
+Marije;Vink;0;0;0;0;0;0;0;0;0;0;0;0
+Marjan;van Dijk;0;0;0;0;0;0;0;0;0;0;0;0
+Marlies;Naber;0;0;0;0;0;0;0;0;0;0;0;0
+Marlies;Broekert;0;0;0;0;0;0;0;0;0;0;0;0
+Marloes;Eskes;0;0;0;0;0;0;0;0;0;0;0;0
+Marnix;Beekman;0;0;0;0;0;0;0;0;0;0;0;0
+Martijn;de Waal;0;0;0;0;0;0;0;0;0;0;0;0
+Martijn;van Lier;0;0;0;0;0;0;0;0;0;0;0;0
+Martin;Valk;0;0;0;0;0;0;0;0;0;0;0;0
+Mattijs;de Kleuver;0;0;0;0;0;0;0;0;0;0;0;0
+Maura;Hovingh;0;0;0;0;0;0;0;0;0;0;0;0
+Meike;Bulters;0;0;0;0;0;0;0;0;0;0;0;0
+Merel;van Dokkumburg;0;0;0;0;0;0;0;0;0;0;0;0
+Merel;Linde;0;0;0;0;0;0;0;0;0;0;0;0
+Michelle;de Graag;0;0;0;0;0;0;0;0;0;0;0;0
+Miriam;Nieuwenhuis ;0;0;0;0;0;0;0;0;0;0;0;0
+Mirjam;Olthuis;0;0;0;0;0;0;0;0;0;0;0;0
+Mirna;Oudshoorn;0;0;0;0;0;0;0;0;0;0;0;0
+Nadine;van der Meer;0;0;0;0;0;0;0;0;0;0;0;0
+Niels;Kroon;0;0;0;0;0;0;0;0;0;0;0;0
+Nienke;Vogelzang ;0;0;0;0;0;0;0;0;0;0;0;0
+Nienke ;Haverkate;0;0;0;0;0;0;0;0;0;0;0;0
+Nynke;Bergsma;0;0;0;0;0;0;0;0;0;0;0;0
+Nynke;Capel;0;0;0;0;0;0;0;0;0;0;0;0
+Patrick;Bosch;0;0;0;0;0;0;0;0;0;0;0;0
+penning;meester;0;0;0;0;0;0;0;0;0;0;0;0
+Petra;den Heijer;0;0;0;0;0;0;0;0;0;0;0;0
+Pieter;Rauwerda;0;0;0;0;0;0;0;0;0;0;0;0
+Puck;Wagemakers;0;0;0;0;0;0;0;0;0;0;0;0
+Raymond;de Vries;0;0;0;0;0;0;0;0;0;0;0;0
+Renske;de Vries;0;0;0;0;0;0;0;0;0;0;0;0
+Rhod‚;van der Kolk;0;0;0;0;0;0;0;0;0;0;0;0
+Rianne;Meijer;0;0;0;0;0;0;0;0;0;0;0;0
+Rick;Ronde;0;0;0;0;0;0;0;0;0;0;0;0
+Rick;Grevinga;0;0;0;0;0;0;0;0;0;0;0;0
+Rienk;Apperloo;0;0;0;0;0;0;0;0;0;0;0;0
+Rob;van Zoelen;0;0;0;0;0;0;0;0;0;0;0;0
+Sabine;Hemmes;0;0;0;0;0;0;0;0;0;0;0;0
+Sanne ;Reitsma;0;0;0;0;0;0;0;0;0;0;0;0
+Sarah;Versteegh;0;0;0;0;0;0;0;0;0;0;0;0
+Sibo;Agema ;0;0;0;0;0;0;0;0;0;0;0;0
+Sibrecht;Veenstra;0;0;0;0;0;0;0;0;0;0;0;0
+Sijmen;Pelgr”m;0;0;0;0;0;0;0;0;0;0;0;0
+Simon;Valster;0;0;0;0;0;0;0;0;0;0;0;0
+Simon;Nitert;0;0;0;0;0;0;0;0;0;0;0;0
+Simon;Dik;0;0;0;0;0;0;0;0;0;0;0;0
+Sofie;Reuvers;0;0;0;0;0;0;0;0;0;0;0;0
+Stefan;Blokzijl;0;0;0;0;0;0;0;0;0;0;0;0
+Stella;van Bergen;0;0;0;0;0;0;0;0;0;0;0;0
+Stijn;de Zeeuw;0;0;0;0;0;0;0;0;0;0;0;0
+Sue Mae;Klein;0;0;0;0;0;0;0;0;0;0;0;0
+Sven;van Erp;0;0;0;0;0;0;0;0;0;0;0;0
+Sveva;Stummel ;0;0;0;0;0;0;0;0;0;0;0;0
+Tamara;Doeve;0;0;0;0;0;0;0;0;0;0;0;0
+Tetske;Dijkstra;0;0;0;0;0;0;0;0;0;0;0;0
+Tijmen;Boshuizen;0;0;0;0;0;0;0;0;0;0;0;0
+Tjerk;Douma;0;0;0;0;0;0;0;0;0;0;0;0
+Tristan;Buisman;0;0;0;0;0;0;0;0;0;0;0;0
+Twan;Goosen;0;0;0;0;0;0;0;0;0;0;0;0
+Tyrone;Feenstra;0;0;0;0;0;0;0;0;0;0;0;0
+Vincent;Schelwald;0;0;0;0;0;0;0;0;0;0;0;0
+Vladimir;Slot;0;0;0;0;0;0;0;0;0;0;0;0
+Wesley;Seubring;0;0;0;0;0;0;0;0;0;0;0;0
+Willem;Cazemier;0;0;0;0;0;0;0;0;0;0;0;0
+Wouter;Gaastra;0;0;0;0;0;0;0;0;0;0;0;0
+Wybrand;de Vries;0;0;0;0;0;0;0;0;0;0;0;0
+Yvonne;de Vries;0;0;0;0;0;0;0;0;0;0;0;0

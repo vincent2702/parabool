@@ -29,6 +29,7 @@ namespace streeplijst
         int FrisCount = 0;
         int SnoepCount = 0;
         int WijnCount = 0;
+        int AACount = 0;
         public String fullName { get; set; }
         /*
          * Form1 starts the first interface. sets up the data and calls the UpdatText method 
@@ -37,7 +38,7 @@ namespace streeplijst
         {
             InitializeComponent();
             
-            this.ShowInTaskbar = false;
+            //this.ShowInTaskbar = false;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             
             //SetUpData();
@@ -57,11 +58,12 @@ namespace streeplijst
             name.Text = fullName;
             foreach (Lid lid in dBConnect.lijst.Leden)
             {
-                if (name.Text == lid.Firstname + "\t" + lid.Lastname) {
-                    textBox1.Text = lid.Items.Bier + ":\t" + lid.Items.ItemCountBier + "\r\n" +
-                                    lid.Items.Fris + ":\t" + lid.Items.ItemCountFris + "\r\n" +
-                                    lid.Items.Snoep + ":\t" + lid.Items.ItemCountSnoep + "\r\n" +
-                                    lid.Items.Wijn + ":\t" + lid.Items.ItemCountWijn + "\r\n";
+                if (name.Text.ToLower() == lid.Firstname.ToLower() + "\t" + lid.Lastname.ToLower()) {
+                    textBox1.Text = lid.Items.Bier + ":\t" + BierCount + "\r\n" +
+                                    lid.Items.Fris + ":\t" + FrisCount + "\r\n" +
+                                    lid.Items.Snoep + ":\t" + SnoepCount + "\r\n" +
+                                    lid.Items.Wijn + ":\t" + WijnCount + "\r\n" +
+                                    lid.Items.AA + ":\t" + AACount + "\r\n";
                 }
             }
         }
@@ -222,6 +224,37 @@ namespace streeplijst
                 }
 
         }
+        private void AA_Click0(object sender, EventArgs e)
+        {
+            AACount++;
+            foreach (Lid lid in dBConnect.lijst.Leden)
+            {
+                if (name.Text == lid.Firstname + "\t" + lid.Lastname)
+                {
+                    lid.Items.ItemCountAA = AACount;
+                    UpdateText();
+                }
+
+            }
+        }
+        private void AA_Click1(object sender, EventArgs e)
+        {
+            AACount--;
+            if (AACount < 0)
+            {
+                AACount = 0;
+            }
+            foreach (Lid lid in dBConnect.lijst.Leden)
+            {
+                if (name.Text == lid.Firstname + "\t" + lid.Lastname)
+                {
+                    lid.Items.ItemCountAA = AACount;
+                    UpdateText();
+                }
+
+            }
+
+        }
 
 
 
@@ -229,10 +262,10 @@ namespace streeplijst
         {
             if (MsgBox.Show("weet je het zeker", "", "JA", "NEE") == DialogResult.Yes)
             {
-                BierCount = 0;
-                FrisCount = 0;
-                SnoepCount = 0;
-                WijnCount = 0;
+                FormList.form4.Show();
+                //FormList.form2.Show();
+                FormList.form1.Hide();
+
                 foreach (Lid lid in dBConnect.lijst.Leden)
                 {
                     if (name.Text == lid.Firstname + "\t" + lid.Lastname)
@@ -241,21 +274,33 @@ namespace streeplijst
                         lid.Items.ItemCountTotalFris += lid.Items.ItemCountFris;
                         lid.Items.ItemCountTotalSnoep += lid.Items.ItemCountSnoep;
                         lid.Items.ItemCountTotalWijn += lid.Items.ItemCountWijn;
-                        dBConnect.Update(lid.Items.ItemCountTotalBier, lid.Items.ItemCountTotalFris, lid.Items.ItemCountTotalWijn, lid.Items.ItemCountTotalSnoep, lid.Items.Id);
+                        lid.Items.ItemCountTotalAA += lid.Items.ItemCountAA;
+                        dBConnect.Update("streeplijst", lid.Items.ItemCountTotalBier, lid.Items.ItemCountTotalFris, lid.Items.ItemCountTotalWijn, lid.Items.ItemCountTotalSnoep, lid.Items.ItemCountTotalAA, lid.Items.Id);
+                        lid.Items.ItemCountTotalBier2 += lid.Items.ItemCountBier;
+                        lid.Items.ItemCountTotalFris2 += lid.Items.ItemCountFris;
+                        lid.Items.ItemCountTotalSnoep2 += lid.Items.ItemCountSnoep;
+                        lid.Items.ItemCountTotalWijn2 += lid.Items.ItemCountWijn;
+                        lid.Items.ItemCountTotalAA2 += lid.Items.ItemCountAA;
+                        dBConnect.Update("streeplijst_total", lid.Items.ItemCountTotalBier2, lid.Items.ItemCountTotalFris2, lid.Items.ItemCountTotalWijn2, lid.Items.ItemCountTotalSnoep2, lid.Items.ItemCountTotalAA2, lid.Items.Id);
                         lid.Items.ItemCountBier = 0;
                         lid.Items.ItemCountFris = 0;
                         lid.Items.ItemCountSnoep = 0;
                         lid.Items.ItemCountWijn = 0;
                         UpdateText();
+                        
                     }
                 }
 
                 dBConnect.SearchDB("");
                 FormList.form2.Update_List();
                 FormList.form4.List_Update();
-                FormList.form4.Show();
-                //FormList.form2.Show();
-                FormList.form1.Hide();
+                timer1.Stop();
+                dBConnect.UpdateStock(BierCount, FrisCount, SnoepCount, WijnCount, AACount);
+                BierCount = 0;
+                FrisCount = 0;
+                SnoepCount = 0;
+                WijnCount = 0;
+                AACount = 0;
 
             }
 
@@ -269,11 +314,25 @@ namespace streeplijst
 
         private void terug_Click(object sender, EventArgs e)
         {
+            FormList.form2.Show();
+            FormList.form1.Hide();
+            BierCount = 0;
+            FrisCount = 0;
+            SnoepCount = 0;
+            WijnCount = 0;
+            AACount = 0;
             FormList.form2.Update_List();
             FormList.form4.List_Update();
             //FormList.form4.Show();
-            FormList.form2.Show();
+            timer1.Stop();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
             FormList.form1.Hide();
+            //FormList.form2.Update_List();
+            FormList.form4.Show();
+            timer1.Stop();
         }
     }
 }

@@ -1,0 +1,9 @@
+C:\Users\vince\Documents\Visual Studio 2017\streeplijst\streeplijst_library\bin\Release\netstandard1.4\streeplijst_library.deps.json
+C:\Users\vince\Documents\Visual Studio 2017\streeplijst\streeplijst_library\bin\Release\netstandard1.4\streeplijst_library.dll
+C:\Users\vince\Documents\Visual Studio 2017\streeplijst\streeplijst_library\bin\Release\netstandard1.4\streeplijst_library.pdb
+C:\Users\vince\Documents\Visual Studio 2017\streeplijst\streeplijst_library\obj\Release\netstandard1.4\streeplijst_library.csprojResolveAssemblyReference.cache
+C:\Users\vince\Documents\Visual Studio 2017\streeplijst\streeplijst_library\obj\Release\netstandard1.4\streeplijst_library.csproj.CoreCompileInputs.cache
+C:\Users\vince\Documents\Visual Studio 2017\streeplijst\streeplijst_library\obj\Release\netstandard1.4\streeplijst_library.AssemblyInfoInputs.cache
+C:\Users\vince\Documents\Visual Studio 2017\streeplijst\streeplijst_library\obj\Release\netstandard1.4\streeplijst_library.AssemblyInfo.cs
+C:\Users\vince\Documents\Visual Studio 2017\streeplijst\streeplijst_library\obj\Release\netstandard1.4\streeplijst_library.dll
+C:\Users\vince\Documents\Visual Studio 2017\streeplijst\streeplijst_library\obj\Release\netstandard1.4\streeplijst_library.pdb

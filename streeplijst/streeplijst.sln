@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "streeplijst", "streeplijst\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "streeplijst_library", "streeplijst_library\streeplijst_library.csproj", "{2A39EA77-2C3C-4112-9945-C36E184A61CD}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "streeplijst installer", "streeplijst installer\streeplijst installer.vdproj", "{8D84B1DC-429B-4DCB-A271-5C06C1A46A38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,8 @@ Global
 		{2A39EA77-2C3C-4112-9945-C36E184A61CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A39EA77-2C3C-4112-9945-C36E184A61CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A39EA77-2C3C-4112-9945-C36E184A61CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D84B1DC-429B-4DCB-A271-5C06C1A46A38}.Debug|Any CPU.ActiveCfg = Debug
+		{8D84B1DC-429B-4DCB-A271-5C06C1A46A38}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

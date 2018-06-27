@@ -16,8 +16,9 @@ namespace streeplijst
         public static Form3 form3 { get { return _Form3; } }
         private static Form4 _Form4 = new Form4();
         public static Form4 form4 { get { return _Form4; } }
-        //private static KeyBoard _KeyBoard = new KeyBoard();
-        //public static KeyBoard keyBoard { get { return _KeyBoard; } }
+        private static ArduinoSerialReader _arduinoSerialReader = new ArduinoSerialReader();
+        public static ArduinoSerialReader arduinoSerialReader { get { return _arduinoSerialReader; } }
+
 
 
         public FormList() {

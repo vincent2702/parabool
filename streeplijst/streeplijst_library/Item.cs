@@ -11,16 +11,25 @@ namespace streeplijst_library
         public String Wijn { get; set; }
         public String Fris { get; set; }
         public String Snoep { get; set; }
+        public String AA { get; set;}
 
         public int ItemCountBier { get; set; }
         public int ItemCountFris { get; set; }
         public int ItemCountSnoep { get; set; }
         public int ItemCountWijn { get; set; }
+        public int ItemCountAA { get; set; }
 
         public int ItemCountTotalBier { get; set; }
         public int ItemCountTotalFris { get; set; }
         public int ItemCountTotalSnoep { get; set; }
         public int ItemCountTotalWijn { get; set; }
+        public int ItemCountTotalAA { get; set; }
+
+        public int ItemCountTotalBier2 { get; set; }
+        public int ItemCountTotalFris2 { get; set; }
+        public int ItemCountTotalSnoep2 { get; set; }
+        public int ItemCountTotalWijn2 { get; set; }
+        public int ItemCountTotalAA2 { get; set; }
 
         public int Id { get; set; }
 
@@ -44,6 +53,7 @@ namespace streeplijst_library
             Wijn = "Wijn";
             Snoep = "Snoep";
             Fris = "Fris";
+            AA = "AA";
             ItemCount = 0;
             ItemCountTotal = 0;
             ItemCountBier = 0;
