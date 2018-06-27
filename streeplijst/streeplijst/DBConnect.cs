@@ -26,7 +26,7 @@ namespace streeplijst
         //Initialize values
         private void Initialize()
         {
-            server = "localhost";
+            server = "localhost hoi ik ben hoier";
             database = "test";
             uid = "root";
             password = "admin";
